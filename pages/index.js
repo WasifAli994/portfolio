@@ -37,7 +37,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-r from-red-600 text- to-red-600 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="https://drive.google.com/file/d/1om3ePLlHL_rRiCps4ZLGmqF6fT3uYs-Q/view?usp=sharing" target="_blank"
                 >
                   Resume
@@ -46,7 +46,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-5xl py-2 text-red-600 font-medium dark:text-red-600 md:text-6xl">
               Wasif Ali
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
@@ -78,9 +78,9 @@ export default function Home() {
                 <a href="http://weatherappjs.surge.sh/" target="_blank" rel="noreferrer">Weather App</a>
               </h3>
               <p className="py-2">
-              A weather application which shows the updated and live weather forecast of an entered city
+              Weather application which shows the updated and live weather forecast of an entered city
               </p>
-              <h4 className="py-4 text-xl text-teal-600">Technologies I&apos;ve Used</h4>
+              <h4 className="py-4 text-xl text-red-600">Technologies I&apos;ve Used</h4>
               <p className="text-gray-800 py-1">HTML & CSS</p>
               <p className="text-gray-800 py-1">Javascript</p>
               <p className="text-gray-800 py-1">Open Weather API</p>
@@ -94,7 +94,7 @@ export default function Home() {
               <p className="py-2">
               A real time chat app which let&apos;s the users to send and receive messages over a network
               </p>
-              <h4 className="py-4 text-xl text-teal-600">Technologies I&apos;ve Used</h4>
+              <h4 className="py-4 text-xl text-red-600">Technologies I&apos;ve Used</h4>
               <p className="text-gray-800 py-1">Node js</p>
               <p className="text-gray-800 py-1">Express</p>
               <p className="text-gray-800 py-1">Web Sockets</p>
@@ -108,7 +108,7 @@ export default function Home() {
               A ticketing system for users to keep track of their working tickets
               for the day.
               </p>
-              <h4 className="py-4 text-xl text-teal-600">Technologies I&apos;ve Used</h4>
+              <h4 className="py-4 text-xl text-red-600">Technologies I&apos;ve Used</h4>
               <p className="text-gray-800 py-1">Node js</p>
               <p className="text-gray-800 py-1">Express</p>
               <p className="text-gray-800 py-1">Mongo DB</p>
