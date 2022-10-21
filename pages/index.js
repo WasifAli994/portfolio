@@ -2,7 +2,6 @@ import Head from "next/head";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
   AiFillGithub,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
@@ -38,7 +37,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-red-600 text- to-red-600 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1om3ePLlHL_rRiCps4ZLGmqF6fT3uYs-Q/view?usp=sharing" target="_blank"
+                  href="https://drive.google.com/file/d/1om3ePLlHL_rRiCps4ZLGmqF6fT3uYs-Q/view?usp=sharing" target="_blank" rel="noreferrer"
                 >
                   Resume
                 </a>
@@ -68,7 +67,7 @@ export default function Home() {
             <h3 className="text-5xl py-1 dark:text-white ">Stuff I&apos;ve Built</h3>
             <p className="text-xl py-2 leading-8 text-gray-800 dark:text-gray-200">
               Ever since I&apos;ve started my develpment journey, I&apos;ve built few projects
-              to using my learnings to get the most out of the learning process. 
+              to get the most out of the learning process. 
             </p>
           </div>
           <div className="lg:flex gap-10">
